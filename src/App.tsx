@@ -1,7 +1,10 @@
+import { BugsList } from "./components/BugsList/BugsList";
+
 export function App() {
 	return (
 		<>
-			Forj
+			<h1>Forj</h1>
+			<BugsList />
 		</>
 	);
 }

@@ -1,0 +1,33 @@
+.bugsList {
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+}
+
+.bugItem {
+	border: 1px solid #ccc;
+	padding: 10px;
+	cursor: pointer;
+
+	&:hover {
+		background-color: #f0f0f0;
+	}
+}
+
+.bugDetails {
+	border: 1px solid #ccc;
+	padding: 10px;
+}
+
+.bugId {
+	font-size: small;
+}
+
+.bugTitle {
+	font-size: medium;
+	font-weight: bold;
+}
+
+.bugDescription {
+	font-size: small;
+	color: gray;
+}
