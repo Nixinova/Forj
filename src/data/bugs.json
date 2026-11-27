@@ -2,11 +2,53 @@
 	{
 		"id": "1a2b3c4d5e6f7g8h9i0j",
 		"title": "Test 123",
-		"description": "Test description"
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\r\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+		"dateTime": "2024-06-15T12:34:56+12:00",
+		"reactions": [
+			{
+				"emoji": "👍",
+				"user": {
+					"username": "User One",
+					"displayName": "User One"
+				}
+			},
+			{
+				"emoji": "❤️",
+				"user": {
+					"username": "User Two",
+					"displayName": "User Two"
+				}
+			}
+		],
+		"replies": [
+			{
+				"id": "1",
+				"user": {
+					"username": "User Three",
+					"displayName": "User Three",
+					"topRole": {
+						"name": "Admin",
+						"colour": "blue"
+					}
+				},
+				"text": "This is a reply to the bug.",
+				"dateTime": "2024-06-15T13:45:00+12:00"
+			},
+			{
+				"id": "2",
+				"user": {
+					"username": "User Four",
+					"displayName": "User Four"
+				},
+				"text": "Another reply to the bug.",
+				"dateTime": "2024-06-15T14:00:00+12:00"
+			}
+		]
 	},
 	{
 		"id": "1k2l3m4n5o6p7q8r9s0t",
 		"title": "Test 456",
-		"description": "Lorem ipsum"
+		"description": "Lorem ipsum",
+		"dateTime": "2024-06-16T09:12:34Z"
 	}
 ]

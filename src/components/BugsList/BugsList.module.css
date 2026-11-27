@@ -11,6 +11,10 @@
 	&:hover {
 		background-color: #f0f0f0;
 	}
+
+	&.selectedBugItem {
+		background-color: #e0e0e0;
+	}
 }
 
 .bugDetails {
@@ -19,15 +23,69 @@
 }
 
 .bugId {
-	font-size: small;
+	display: block;
+	margin-inline-end: 1em;
+	margin-block-end: 0.5em;
+	color: gray;
+	font-size: x-small;
+}
+
+.bugDateTime {
+	display: inline-block;
+	margin-inline-end: 1em;
+	margin-block: 0 1em;
+	color: gray;
+	font-size: x-small;
 }
 
 .bugTitle {
 	font-size: medium;
 	font-weight: bold;
+	margin-block-end: 0;
 }
 
 .bugDescription {
-	font-size: small;
+	margin-block: 0;
+	margin-inline: 0.25em;
+}
+
+.bugReactions {
+	margin-block-end: 10px;
+	cursor: help;
+}
+
+.bugReplies {
+	margin-top: 10px;
+}
+
+.bugReply {
+	border-top: 1px solid #ccc;
+	padding: 5px;
+}
+
+.bugReplyUser {
+	font-weight: bold;
+}
+
+.bugReplyRoleLabel:not(:empty) {
+	background-color: gray;
+	color: white;
+	margin-inline: 0.25em 0.5em;
+	padding: 0.25em 0.5em;
+	border-radius: 0.25em;
+	font-size: xx-small;
+	vertical-align: middle;
+}
+
+.bugReplyText {
+	margin-block: 0;
+	margin-inline: 0.25em;
+}
+
+.bugReplyDateTime {
+	display: block;
+	margin-inline-end: 1em;
+	margin-block-end: 0.5em;
 	color: gray;
+	font-size: x-small;
 }
